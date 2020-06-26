@@ -14,3 +14,12 @@
   width: 100%;
   height: auto;
 }
+
+.header {
+  background-color: black;
+  width: 80%
+}
+
+.footer{
+  background-color: black;
+}

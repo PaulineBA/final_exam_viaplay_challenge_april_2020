@@ -20,17 +20,20 @@ const App = () => {
     </div>
   })
  
-})
+}
   
-  return (
-    <div>
+return (
+    <>
+    <div className="header"/>
     <img src="https://kundservice.viaplay.se/wp-content/themes/viaplaycs/assets/dist/images/viaplay_white.svg" id="image" />
       <div>
         {listSeries}
       </div>
-
+      <div className="footer">
     </div>
+    </>
   );
-}
+  
+
 
 export default App;
